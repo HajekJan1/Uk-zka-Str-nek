@@ -1,0 +1,382 @@
+*{margin:0;
+  padding:0;
+  box-sizing:border-box;
+  }
+
+/*****Reusable*****/
+.row{
+     width: 1140px;
+     margin: 0px auto;
+     }
+
+
+
+
+/***** Hlavička *****/
+header{         
+       background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(xLeVc5XahQ14O2-lWv6n8JjqE1V8AAUSeyRHIiFfamQ.jpg);
+       height: 100vh;
+       background-size: cover;
+       background-attachment: fixed;
+       }
+
+/*****Logo, navigace, tridivy*****/
+#logo img{
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: 11%;
+  }
+
+nav ul{
+       float:right;
+       margin-top:40px ;
+       margin-right: 0px;
+       }
+
+nav ul li{
+          display: inline-block;
+          margin: 0 10px;
+          }
+
+
+nav ul li a{
+            color: #fff;
+            text-decoration:none;
+            font-size: 25px;      
+            
+            }
+/*****Pseudotřídy odkazů****/
+nav ul li a:hover,
+nav ul li a:active{
+                  text-decoration: underline;
+                   transition: text-decoration 2s;}
+
+
+nav ul li a:link,
+nav ul li a:visited{
+                    opacity: 1;}
+
+
+
+
+
+.header_text{position: absolute;
+             top: 50%;
+             left:30%;
+             transform: translate(-50%,-50%);    
+             }   
+
+.header_text h1{
+                color:#fff;
+                font-size: 40px;
+                text-transform: uppercase;
+                letter-spacing: 2.2px;
+                word-spacing:3.5px;
+                }
+
+/*****Tlačítka*****/
+.btn{   
+     display: inline-block;
+     color:#fff;
+     text-decoration:none;
+     font-size: 20px;
+     border:2px solid #117efb;
+     border-radius:10px;
+     padding:5px 10px;
+     margin-top:10px;
+     letter-spacing: 1px;
+     }
+
+
+
+/*****Pseudotřída první tlačítko*****/
+#fbtn:hover, 
+#fbtn:active{
+             transition: background  6s;
+             background-color:#3508ff;
+             border:1px solid  #6848f3;
+            }
+
+#fbtn:link,
+#fbtn:visited{
+             background-color: #3508ff;
+             }
+     
+/*****Pseudotřída druhé tlačítko*****/
+#sbtn:hover,
+#sbtn:active{background-color: #0abbf1;
+             border:1px solid  #0b4ddb;
+             transition: background 0.75s;}
+
+#sbtn:link,
+#sbtn:visited{
+             margin-left:10px;
+             }
+
+
+/*****About us*****/ /*****Photo galerry*****/
+
+.heading-main h2 {
+                  text-align: center;
+                  margin-top: 20px;
+                  font-size: 30px;
+                  }
+
+
+.heading-main h2:after {
+                        content: ""; 
+                        display: block;
+                        width: 150px;
+                        border-bottom: 2px solid #3000dc;
+                        margin: 20px auto;
+                        }
+                
+
+.pizza-example-first img{
+                        width: 99%; 
+                        border-radius: 10px;
+                        box-shadow: 4px 6px 10px #000;
+                        margin-right: 10px;
+                        }
+
+.pizza-example-second img{
+                          width: 99%; 
+                          border-radius: 10px;
+                          box-shadow: 4px 6px 10px #000;
+                          margin-left: 10px;
+                          }
+
+#pizzat img{   
+            border-radius: 10px;
+            box-shadow: 4px 6px 10px #000;
+            margin-left: 10px;
+            width: 96%;
+            height: 240px;
+            }
+
+
+.text-pizza div{
+               width: 50px;
+               height: 50px;
+               border: 2px solid black;
+               border-radius: 50%;
+               text-align: center;
+               padding: 14px;
+               float:left;
+               margin: 5px 0px;
+               margin-right: 40px;
+               }
+
+.text-pizza p{
+              font-size: 20px;
+              height: 50px;
+              margin-top: 0px;
+              }
+
+
+
+              
+/*****Reference*****/
+.references{
+           background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(xLeVc5XahQ14O2-lWv6n8JjqE1V8AAUSeyRHIiFfamQ.jpg);
+           height: 70vh;     
+           width: 100%;     
+           background-attachment: fixed;
+          
+            position: relative;
+            left: 0;
+            width: 100vw;
+            margin-left: -50vw;
+            left: 50%;
+        }
+        
+           
+           
+           
+          
+
+.references h2{
+               color: #fff;
+               padding-top: 30px;
+               }
+
+.references h2::after{
+                      border-bottom: 2px solid #fff;
+                      }
+
+.customer-references p{
+                      color: #fff;
+                       font-size: 20px;
+                       font-style: italic;
+                        }
+
+
+.customer-references img{
+                        border-radius: 50%;
+                         height: 70px;
+                         width: 70px;
+                         border:2px solid  #fff;
+                         margin-top: 10px;
+                          }
+
+.nick{float:right;
+      margin-top: 32px;
+      margin-right: 200px; 
+      }
+
+.photo_galerry ul li img{ 
+                         border-radius: 10px;
+                         box-shadow: 4px 6px 10px #000; 
+                         width: 300px auto;
+                         background-color:#000;
+  	                     }
+
+
+.photo_galerry ul li{list-style-type:none;
+                      }
+
+/*****Contact form*****/
+.contact-form{
+              width: 700px;
+              text-align:center;
+              }
+
+.contact-form input{
+                    width: 80%;
+                    text-align: center;
+                    margin: 5px 0px;
+                    padding: 7px;
+                    border: 2px solid #000;
+                    border-radius: 10px;
+                    box-shadow: 5px 5px 5px grey;
+                      }
+
+.contact-form textarea{
+                       width: 80%;
+                       text-align: center;
+                       margin: 5px 0px;
+                       padding: 7px;
+                       border: 2px solid #000;
+                       border-radius: 10px;
+                       box-shadow: 5px 5px 5px grey;
+                       font-family: Arial, Helvetica, sans-serif;}
+
+#submit{
+        background-color: #3437ef;
+        color:#000000;
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 30px;}
+
+
+#submit:hover,
+#submit:active{background-color: #1128f8;
+               color:#ffffff;
+               transition: background-color 0.5s;
+               transition: color 0.5s;}
+
+/*****Patička*****/
+.footer-page{
+             background-color: #3508ff;
+}
+
+.social a{
+        margin-right: 20px;
+        color:rgb(175, 173, 173);
+        text-decoration: none;
+        }
+
+
+.social{text-align: center;}
+
+
+.social a:hover,
+.social a:active{
+               color:rgb(255, 255, 255);
+}
+
+.footer-text{
+             text-align: center;
+             color:#fff;
+             }
+
+             
+/*****Stop Floating*****/
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+.para{font-size: 20px;
+text-align: center;}
+
+
+
+
+/* From Uiverse.io by Fcodingx */ 
+.card {
+  width: 300px;
+  height:200px;
+  padding: 0.5rem;
+  background: rgba(9, 112, 246, 0.34);
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.440);
+  border-left: 2px  rgba(255, 255, 255, 0.545) outset;
+  box-shadow: -40px 50px 30px rgba(0, 0, 0, 0.280);
+  transform: skewX(10deg);
+  transition: .4s;
+  overflow: hidden;
+  color: white;
+}
+
+.card:hover {
+  height: 254px;
+  transform: skew(0deg);
+}
+
+.align {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-self: flex-start;
+}
+
+.red {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ff605c;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
+}
+
+.yellow {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ffbd44;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
+}
+
+.green {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #00ca4e;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
+}
+
+.card h1 {
+  text-align: center;
+  margin: 1.3rem;
+  color: rgb(218, 244, 237);
+  text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
+}
+
+
+
